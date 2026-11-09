@@ -1,0 +1,31 @@
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Backups e arquivos temporários
+*.bak
+*.backup
+*.tmp
+*.log
+
+# Dumps de banco de dados
+*.dump
+*.backup.sql
+
+# Configurações de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários
+.cache/
+tmp/
+temp/
