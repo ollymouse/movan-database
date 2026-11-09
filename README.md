@@ -12,7 +12,6 @@ Este repositório apresenta a estrutura do banco de dados desenvolvido para o pr
 
 - **PostgreSQL** — Sistema de gerenciamento de banco de dados relacional.
 - **Neon Database** — Hospedagem do banco de dados em nuvem.
-- **pgAdmin 4** — Administração e gerenciamento do banco.
 - **SQL** — Linguagem utilizada na definição e consulta dos dados.
 
 ## Modelagem do banco de dados
@@ -29,31 +28,6 @@ Entre as funcionalidades contempladas pela modelagem estão:
 - Registro de movimentações financeiras.
 - Configuração de regras financeiras.
 - Gerenciamento de cláusulas e documentos contratuais.
-
-### Diagrama Entidade-Relacionamento (DER)
-
-O diagrama apresenta as entidades, seus atributos e os relacionamentos definidos na estrutura do banco.
-
-![Diagrama Entidade-Relacionamento](images/diagrama-er.png)
-
-## Estrutura do repositório
-
-```text
-movan-database/
-│
-├── docs/
-│   └── estrutura.md
-│
-├── images/
-│   └── diagrama-er.png
-│
-├── sql/
-│   ├── 01_schema.sql
-│   └── 02_queries.sql
-│
-├── .gitignore
-└── README.md
-```
 
 ## Organização dos arquivos SQL
 
